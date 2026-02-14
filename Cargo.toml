@@ -1,0 +1,12 @@
+[package]
+name = "regression"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+nalgebra = "0.34.1"
+ndarray-linalg = "0.18.1"
+ndarray = { version = "0.15.6", default-features = false, features = ["std"] }
+polars = { version = "0.53", features = ["csv", "lazy"] }
+polars-io = "0.53.0"
+ndarray-stats = "0.7.0"
